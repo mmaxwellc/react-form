@@ -17,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": " build/ s3://react-form1 --acl public-read"
   },
   "eslintConfig": {
     "extends": [
